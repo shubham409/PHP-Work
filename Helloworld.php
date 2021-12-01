@@ -6,8 +6,12 @@
 <body>
     <H1>hello</H1>
     <?php
-        echo ("HELLO");
-        
+        echo ("string");
+        echo "string";
+        $string = "string";
+        echo $string;
+
+
     ?>
 </body>
 </html>
