@@ -40,7 +40,7 @@
         // assgning student
         $student2 = new Student("Unknown",401,"Unknown");
          
-        
+        $student2->name = "JK";
         // using object
         echo $student2->name;
         echo "<br>";
