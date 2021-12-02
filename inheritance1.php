@@ -40,12 +40,18 @@
                 echo "<br>";                
                 // echo $this->private_val; -------->Error private var can only be used in same class
                 // echo "<br>";
+                
 
 
             }
         }
         $derived_object = new DerivedClass();
         $derived_object->show();
+
+        
+        // echo $derived_object->protected_val;
+        // echo "checking protected val <br>";
+        // Error protected variables can not be accessed outside class
 
         $child_derived_object = new ChildDerivedClass();
         $child_derived_object->show();
