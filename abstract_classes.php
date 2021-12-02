@@ -11,7 +11,10 @@
         // 1. at least 1 abstract method
         // 2. Abstract method -> no body only definition
         // 3. protected and public is used for access modifier
-
+        // 4. Don't support multiple inheritance
+        // 5. Can contain data member
+        // 6. static member must be complete in abstract class
+        // 7. Can contain both complete and incomplete member 
         abstract class AbstractClass {
             public $variable ="shubham";
             public function showpublic(){
