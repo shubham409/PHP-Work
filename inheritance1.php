@@ -23,8 +23,8 @@
                 echo "<br>";                
                 echo $this->protected_val;
                 echo "<br>";                
-                echo $this->private_val;
-                echo "<br>";
+                // echo $this->private_val;-------->Error  private var can only be used in same class
+                // echo "<br>";
 
 
             }
@@ -38,8 +38,8 @@
                 echo "<br>";                
                 echo $this->protected_val;
                 echo "<br>";                
-                echo $this->private_val;
-                echo "<br>";
+                // echo $this->private_val; -------->Error private var can only be used in same class
+                // echo "<br>";
 
 
             }
