@@ -18,11 +18,22 @@
                 echo "Public Method";
                 echo "<br>";
             }
+            public abstract function absmethod();
+            
         }
+        // concrete class rules
+        // 1. must implement all method
+        // 2. restiriction of access modifier must be less rectrictive or same 
+        // it can not be morerestrictive like public can not be private
 
         class AbstractImplementation extends AbstractClass {
-
+            public function absmethod(){
+                echo "Abstract method implemented by concrete class";
+                echo "<br>";
+            }
         }
+        $object = new AbstractImplementation();
+        $object->absmethod();
         
     ?>
         
